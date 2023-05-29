@@ -1,13 +1,15 @@
 import "./App.css";
-import Button from "@mui/material/Button";
+
 import Banner from "./component/Banner";
 import Counter from "./component/Counter";
+import Container from "@mui/material/Container";
+
 function App() {
   return (
-    <div>
+    <Container>
       <Banner />
       <Counter />
-    </div>
+    </Container>
   );
 }
 
